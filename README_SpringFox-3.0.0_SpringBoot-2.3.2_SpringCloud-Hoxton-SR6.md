@@ -67,7 +67,7 @@ Replaced the Spring Boot version v2.1.x with v2.3.2, e.g.:
 With:
 
 ```
-    springBootVersion = '2.3.2.RELEASE'
+    springBootVersion = '2.3.9.RELEASE'
 ```
 
 ### 2.1.2. Auto creation of index in MongoDB disabled
@@ -253,7 +253,7 @@ Replaced the Spring Cloud Greenwich versions with Hoxton.SR6, e.g.:
 With:
 
 ```
-  springCloudVersion = "Hoxton.SR6"
+  springCloudVersion = "Hoxton.SR10"
 ```
 
 ### 2.3.2. Upgrade dependencies for the authorization server
