@@ -98,9 +98,9 @@ server.error.include-message: always
 
 From Chapter 12, where the config server is introduced, the configuration has been added to corresponding configuration files in the `config-repo` folder.
 
-### 2.1.4. Upgrade to Spring dependency management plugin 1.0.9
+### 2.1.4. Upgrade to Spring dependency management plugin 1.0.11.RELEASE
 
-In the `api` and `util` projects, the Spring dependency management plugin has been upgraded to v1.0.9.
+In the `api` and `util` projects, the Spring dependency management plugin has been upgraded to v1.0.11.
 
 Replaced:
 
@@ -111,7 +111,7 @@ Replaced:
 With:
 
 ```
-  id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+  id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 ```  
 
 ### 2.1.5. Changes in test classes
