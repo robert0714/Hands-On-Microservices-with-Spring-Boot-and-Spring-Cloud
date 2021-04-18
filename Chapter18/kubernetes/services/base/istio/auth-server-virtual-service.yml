@@ -4,15 +4,13 @@ metadata:
   name: auth-server-vs
 spec:
   hosts:
-  - "minikube.me"
+    - "minikube.me"
   gateways:
-  - hands-on-gw
+    - hands-on-gw
   http:
-  - match:
-    - uri:
-        prefix: /oauth
-    route:
-    - destination:
-        port:
-        host: auth-server
-
+    - match:
+        - uri:
+            prefix: /oauth
+      route:
+        - destination:
+            host: auth-server
